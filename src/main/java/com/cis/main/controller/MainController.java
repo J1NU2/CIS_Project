@@ -54,8 +54,6 @@ public class MainController {
         model.addAttribute("attendance_list", attendance_list);
         model.addAttribute("boardvolist", boardvolist);
         model.addAttribute("boardvolistg", boardvolistg);
-        // 개인업무
-
 
         return "main/emp_main";
     }

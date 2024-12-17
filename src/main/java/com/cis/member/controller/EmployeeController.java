@@ -83,8 +83,6 @@ public class EmployeeController {
             pagination.setStartIndex(0);
             pagination.setPageSize(3);
             List<AttendanceDTO> attendance_list = attendanceService.attendanceList(userId, pagination);
-            // 개인업무
-
 
             model.addAttribute("attendance_list", attendance_list);
             model.addAttribute("boardvolist", boardvolist);
