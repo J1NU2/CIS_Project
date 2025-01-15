@@ -89,6 +89,7 @@
 <br>
 
 ## 🖌️ 화면 설계
+  - 담당 파트 화면 설계 (Figma)
 ![MyPart_Mockup](https://github.com/user-attachments/assets/a5f3e6cc-c785-4de8-8750-6d7b173027b6)
 
 <br>
