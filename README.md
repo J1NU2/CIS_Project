@@ -11,7 +11,7 @@
 
 ## 📌 목차
 1. [🖥️ 프로젝트 개요](#-프로젝트-개요)
-2. [📕 담당 파트 기능 구현](#-담당-파트-기능-구현)<br>
+2. [📕 담당 파트 구현](#-담당-파트-구현)<br>
   2-1. [📆 개발기간](#-개발기간)<br>
   2-2. [🔖 프로젝트 주제](#-프로젝트-주제)<br>
   2-3. [⚙️ 개발환경 및 도구](#-개발환경-및-도구)<br>
@@ -84,7 +84,61 @@
 
 <br>
 
-## 📕 담당 파트 기능 구현
+## 📕 담당 파트 구현
+<details>
+  <summary><b>① MySQL Sequence 생성</b></summary>
+  <ul>
+    <li>1. 시퀀스 정보를 저장할 테이블 생성</li>
+    <ul>
+      <li>name : 시퀀스 이름 컬럼</li>
+      <li>currval : 순차적으로 증가될 숫자를 저장할 컬럼</li>
+      <img src="https://github.com/user-attachments/assets/cc87f903-b054-4a44-9a02-fe7bb5e3c71b">
+    </ul><br>
+    <li>2. 시퀀스 생성을 위한 프로시저 설정</li>
+    <ul>
+      <li>프로시저 실행 시 입력받은 텍스트를 기준으로 시퀀스 생성</li>
+      <li>만약, 동일한 이름의 시퀀스 존재 시 해당 시퀀스 삭제 후 생성</li>
+      <img src="https://github.com/user-attachments/assets/36626340-e288-4a24-908d-f0baaad7958c">
+    </ul><br>
+    <li>3. 시퀀스 번호를 순차적으로 상승시킬 함수 선언</li>
+    <ul>
+      <li>함수 실행 시 입력받은 텍스트와 동일한 시퀀스의 숫자 증가(+1)</li>
+      <li>시퀀스 숫자 증가(+1) 후 해당 시퀀스 숫자 반환</li>
+      <img src="https://github.com/user-attachments/assets/0fd95df2-9a05-4942-bdf2-ae483fd777a7">
+    </ul><br>
+    <li>4. 시퀀스 생성 및 실행</li>
+    <ul>
+      <li>CALL문을 사용하여 프로시저를 실행해 시퀀스를 생성</li>
+      <li>생성된 시퀀스명을 기준으로 시퀀스 함수 실행</li>
+      <img src="https://github.com/user-attachments/assets/2e86d75f-9cc1-4a1f-83e8-7a8942f52042">
+    </ul>
+  </ul>
+  <br>
+</details>
+<details>
+  <summary><b>② </b></summary>
+</details>
+<details>
+  <summary><b>③ </b></summary>
+</details>
+<details>
+  <summary><b>④ </b></summary>
+</details>
+<details>
+  <summary><b>⑤ </b></summary>
+</details>
+<details>
+  <summary><b>⑥ </b></summary>
+</details>
+<details>
+  <summary><b>⑦ </b></summary>
+</details>
+<details>
+  <summary><b>⑧ </b></summary>
+</details>
+<details>
+  <summary><b>⑨ </b></summary>
+</details>
 
 <br>
 
