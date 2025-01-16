@@ -87,6 +87,7 @@
 ## 📕 담당 파트 구현
 <details>
   <summary><b>① MySQL Sequence 생성</b></summary>
+  <h3>MySQL Sequence</h3>
   <ul>
     <li>1. 시퀀스 정보를 저장할 테이블 생성</li>
     <ul>
@@ -116,28 +117,102 @@
   <br>
 </details>
 <details>
-  <summary><b>② </b></summary>
+  <summary><b>② 이메일 전송 제한</b></summary>
+  <h3>이메일 전송 화면</h3>
+  <img src="https://github.com/user-attachments/assets/9d8c7d74-638d-4e46-b5a2-5464a0777250" width="620px"><br><br>
+  <ul>
+    <li>이메일 받는 사람 입력 시 제한 사항</li>
+    <ul>
+      <li>최대 길이</li>
+      <li>특정 문자 입력 제한 : 한글, 영어 대문자</li>
+      <img src="https://github.com/user-attachments/assets/a39eea31-9e4d-4d60-bceb-db46a3ea11af">
+    </ul><br>
+    <li>이메일 전송 시 미입력 사항</li>
+    <ul>
+      <li>제목 및 받는 사람 미입력 시 전송 제한</li>
+      <img src="https://github.com/user-attachments/assets/a9c73fcf-5725-4faf-a9ad-968fd58de822" width="620px">
+    </ul><br>
+    <li>이메일 파일 업로드 제한 사항</li>
+    <ul>
+      <li>파일 크기 제한(10MB)</li>
+      <img src="https://github.com/user-attachments/assets/f98cbb06-a98c-4ca1-8ef3-57c26bf3717d">
+      <li>파일 확장자 제한 : .txt, .gif, .jpg, .png, .zip 등</li>
+      <img src="https://github.com/user-attachments/assets/e45b9292-342c-41ec-ad4f-d330ce9bb374" width="620px">
+    </ul>
+  </ul>
+  <br>
 </details>
 <details>
-  <summary><b>③ </b></summary>
+  <summary><b>③ 이메일 목록 필터 및 열람 여부</b></summary>
+  <h3>이메일 목록 화면</h3>
+  <ul>
+    <li>이메일 필터별 이메일 목록 조회</li>
+    <ul>
+      <li>이메일 필터 : 전체, 열람여부별(읽음/안읽음), 보낸메일</li>
+      <img src="https://github.com/user-attachments/assets/8124c724-0130-498d-a31b-bc69dd1d85fa" width="620px">
+      <img src="https://github.com/user-attachments/assets/2e88cb29-08b0-4b7e-878c-06904225c3c4" width="620px">
+    </ul><br>
+    <li>이메일 열람 시 열람 여부 변경</li>
+    <ul>
+      <li>이메일 열람 시 목록 텍스트 스타일 변경</li>
+      <li>열람 전 : Bold / 열람 후 : Normal</li>
+      <img src="https://github.com/user-attachments/assets/9ebd9d8d-b862-4348-8a48-1fa513a80c4b">
+      <img src="https://github.com/user-attachments/assets/e387fef0-008c-4cc3-b19f-ad87362d095f">
+    </ul>
+  </ul>
+  <br>
 </details>
 <details>
-  <summary><b>④ </b></summary>
+  <summary><b>④ 이메일 파일 다운로드</b></summary>
+  <h3>이메일 상세 페이지 화면</h3>
+  <ul>
+    <li>이메일 상세 페이지에서 파일명 클릭 후 다운로드 가능</li>
+    <img src="https://github.com/user-attachments/assets/0a5fdb49-740e-407e-bc7b-bf6b61495fdc">
+    <img src="https://github.com/user-attachments/assets/c6bd3e93-6df4-4ace-8e55-ab05eca5fda7" width="620px">
+  </ul>
+  <br>
 </details>
 <details>
-  <summary><b>⑤ </b></summary>
+  <summary><b>⑤ 이메일 삭제</b></summary>
+  <h3>이메일 목록 화면</h3>
+  <ul>
+    <li>이메일 단일 삭제</li>
+    <ul>
+      <li>상세 페이지 내에서 삭제</li>
+      <img src="https://github.com/user-attachments/assets/30c9826b-d360-4f61-8b8a-98665d7ddffe" width="620px"><br>
+      <li>목록 화면 내에서 삭제</li>
+      <img src="https://github.com/user-attachments/assets/6f60aa72-ad18-4800-8612-9cb166f68cd6">
+    </ul><br>
+    <li>이메일 다중 삭제</li>
+    <img src="https://github.com/user-attachments/assets/c015fe97-38c0-46f8-880b-c68de51365b8"><br>
+    <li>이메일 미선택 삭제</li>
+    <img src="https://github.com/user-attachments/assets/dbee3b7f-7017-408f-abb7-021666312d89" width="620px">
+  </ul>
+  <br>
 </details>
 <details>
-  <summary><b>⑥ </b></summary>
+  <summary><b>⑥ 개인 출퇴근 관리</b></summary>
+  <h3>개인 근무 관리 화면</h3>
+  <ul>
+    <li>출근 시 클릭된 현재 날짜/시간을 기준으로 출근 기록 저장</li>
+    <img src="https://github.com/user-attachments/assets/8a05926b-de8d-4097-bb15-b872014cbccc"><br>
+    <li>퇴근 시 클릭된 현재 날짜/시간을 기준으로 퇴근 기록 저장</li>
+    <img src="https://github.com/user-attachments/assets/b1e49491-6bbf-47b6-944c-3f23ac693220">
+  </ul>
+  <br>
 </details>
 <details>
-  <summary><b>⑦ </b></summary>
-</details>
-<details>
-  <summary><b>⑧ </b></summary>
-</details>
-<details>
-  <summary><b>⑨ </b></summary>
+  <summary><b>⑦ 목록 페이지네이션</b></summary>
+  <h3>메일/근무관리 목록 화면</h3>
+  <ul>
+    <li>메일 목록 확인 시 페이지네이션 기능 추가</li>
+    <img src="https://github.com/user-attachments/assets/dae9b60a-f826-4f8a-8186-4d398357b372"><br>
+    <li>개인 근무 목록 확인 시 페이지네이션 기능 추가</li>
+    <img src="https://github.com/user-attachments/assets/ee5bbf70-8c1e-42f1-bf7f-fa2f78cf08c9"><br>
+    <li>내역 6개당 1페이지 구성</li>
+    <li>5페이지 당 1블럭 버튼 구성 : [[1,2,3,4,5],[6,7,8,9,10],[11,12,13,...]]</li>
+  </ul>
+  <br>
 </details>
 
 <br>
