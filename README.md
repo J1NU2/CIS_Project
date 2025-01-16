@@ -107,7 +107,7 @@
 <br>
 
 ## 📽️ 영상
-[(👋 Click) 프로젝트 동영상]()
+[(👋 Click) 프로젝트 동영상](https://drive.google.com/file/d/16RYkYfFLMOTpY1IXXF25Dkt7Avgh9re7/view?usp=sharing)
 
 <br>
 
