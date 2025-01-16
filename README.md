@@ -229,8 +229,6 @@
 <br>
 
 ## 🏗️ ERD
-[(👋 Click) ERD Cloud](https://www.erdcloud.com/d/Fmmb2eLa5ApoemFQc)
-<br>
 ![CIS_ERD](https://github.com/user-attachments/assets/312c4dd9-7116-43a6-90f2-8ba7ed721156)
 
 <br>
